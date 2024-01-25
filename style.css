@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #f4f4fc;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+}
+
+.logoAlura{
+    width: auto !important;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+
+main{
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenedorcajatexto{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    padding: 100px;
+    width: 1080px;
+    height: 600px;
+}
+
+.text-area{
+    width: 80%;
+    height: 100%;
+    border: none;
+    background-color: #f4f4fc;
+    cursor: pointer;
+    color: #0a3871;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.text-area::placeholder{
+    color: #0a3871;
+}
+
+.info{
+    position: absolute;
+    top: 750px;
+    left: 370px;
+    display: flex;
+    color: #495057;
+}
+.mensagem{
+    background: #fff;
+    /* background-image: url(/assets/boneco.png); */
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-top: 20px;
+    margin-left: 98px;
+    padding: 0 0 0 20px;
+    position: fixed;
+    display: flex;
+    height: 538px;
+}
+
+.mensagem:focus{
+    outline: none;
+}
+
+.botoes{
+    position: absolute;
+    top: 800px;
+    height: 80px;
+    padding-left: 15%;
+    padding-top: 15px;
+}
+
+.encriptar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    border: none;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.encriptar:hover{
+    background: #89c7bd;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.desencriptar {
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color :#0a3871;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.desencriptar:hover {
+    background: #89c7bd;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section02{
+    display: block;
+    position: relative;
+    width: 400px;
+    height: 940px;
+    right: 400px;
+    padding-right: 20px;
+    background-color: #ffffff;
+    box-sizing: 32px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.50);
+}
+
+.imagemLudica{
+    position: absolute;
+    left: 30px;
+    top: 180px;
+    box-sizing: border-box;
+    padding-top: 50px;
+}
+
+.conteudo__paragrafo{
+    position: absolute;
+    box-sizing: border-box;
+    top: 570px;
+    left: 40px;
+}
+
+.conteudo__paragrafo h3{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    color: #343a34;
+}
+
+.conteudo__paragrafo p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter',sans-serif;
+    text-align: center;
+    color: #343a34;
+    padding-top: 20px;
+
+}
+
+.conteudo__resultado{
+    position: absolute;
+    bottom: 410px;
+    width: 320px;
+    height: 450px;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: 25px;
+}
+
+.conteudo__resultado p{
+    color: #495057;
+    font-size: 25px;
+}
+
+.conteudo__copiar{
+    display: flex;
+    position: absolute;
+    bottom: 400px;
+    top: 700px;
+    background-color: aqua;
+    padding-left: 40px;
+}
+.btn-copiar {
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    background-color: #ffffff;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    position: relative;
+    width: 328px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    top: 100px;
+    right: 4px;
+    
+}
+
+/* .btn-copiar:hover {
+    background: #89c7bd;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+} */
+
+/* .info p, img {
+    margin-left: 50px;
+    color: #495057;
+    font-size: 12px;
+} */

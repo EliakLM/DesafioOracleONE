@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Desafio Oracle ONE</title>
+</head>
+<body>
+    <header>
+        <img class="logoAlura" src="/assets/logoAlura.png" alt="logo do empresa Alura">
+    </header>
+    <main>
+        <section>
+            <div class="contenedorcajatexto">
+                <textarea class="text-area" cols="40" rows="5" placeholder="Digite seu texto..."></textarea>
+            </div>
+            <div class="info">
+                <img src="/assets/alerta.svg" alt="">
+                <p>Apenas letras minúsculas sem acentos</p>
+            </div>
+
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">Codificar</button>
+                <button class="desencriptar" onclick="btnDesencriptar()">Descodificar</button>
+            </div>
+        </section>
+        <section class="section02">
+            <div class="imagemLudica">
+                <img src="/assets/boneco.png" alt="">
+            </div>
+            <div class="conteudo__paragrafo">
+                <h3>Nenhuma mensagem <br>encontrada</h3>
+                <p>Digite um texto que você deseja <br> criptografar ou descriptografar.</p>
+            </div>
+            <div class="conteudo__copiar">
+                <input type="button" class="btn-copiar" value="copiar">
+            </div>
+            <div class="conteudo__resultado">
+                <p class="text-resultado"></p>
+            </div>
+        </section>
+
+        <!-- <section>
+            <textarea class="mensagem" placeholder=""></textarea>
+             <button class="btn-copiar" onclick="copiar()">Copiar</button>
+        </section> -->
+    </main>
+    <script src="/engine.js"></script>
+</body>
+</html>
